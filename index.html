@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129139358-1">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-129139358-1");
+
+    import AOS from "aos";
+    import "aos/dist/aos.css";
+
+    // init AOS animation
+    window.addEventListener("load", () => {
+      AOS.init({
+        duration: 1000,
+        offset: 100,
+      });
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () { AOS.refresh(); }, 500);
+    });
+
+  </script>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Kim Huynh</title>
+
+  <link rel="stylesheet" href="style copy.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
+  <!-- <link rel="icon" href="http://www.kimhuynh.net/favicon.ico?v=2" /> -->
+  <link rel="icon" href="logo.ico" />
+</head>
+
+<body>
+
+  <div id="all-the-top-stuff">
+  <div class="navigation">
+    <div class="nav-button float"><a href="https://www.kimhuynh.net/#work/">Work</a></div>
+    <div class="nav-button float"><a id="non-select" href="http://www.kimhuynh.net/play/">Play</a></div>
+    <div class="nav-button float"><a id="non-select" href="http://www.kimhuynh.net/about-me/">About</a></div>
+    <div class="nav-button float">
+      <a id="non-select" class="last-nav" href="https://goo.gl/7mjuQz" target="_blank">Resume</a>
+    </div>
+  </div>
+
+  <div class="logo">
+    <a href="http://www.kimhuynh.net"><img src="images/logo.svg" alt="Kim Huynh"></a>
+  </div>
+
+  <!-- LOGO WITH NAME ON HOVER -->
+  <!-- <ul id="side-menu" class="logo">
+      <li>
+        <i><a href="http://www.kimhuynh.net"><img src="images/logo.svg" alt="Kim Huynh"></a></i>
+      </li>
+      <li>
+        <div class="side-menu__label"><a href="http://www.kimhuynh.net">Kim Huynh</a></div>
+      </li>
+    </ul> -->
+
+  <div class="header">
+  <div class="headline">
+    <div class="wrapper">
+      <div class="extra-light figma-2" data-aos="fade-down" id="first" style="color: #E18490; font-size: 21.684px;">Play</div>
+    </div>
+    <div data-aos="fade-down" class="headline-2" id="figma">Outside of work,<br>
+    I’m usually doodling away <span style="display:inline-block; vertical-align: middle;"><img style="margin-left: -2px;"
+        src="images/palette.png"></span></div>
+    <div data-aos="fade-down" data-aos-delay="500" class="headline-2"
+      >
+      
+      <div style="padding-top:8px; line-height:34px;">Making original illustrations, short stories, & fanart in my lil corner of the internet! :)</div>
+      <!-- <a href="mailto: kimberly.b.huynh@gmail.com" style="color:#E18490; text-decoration: none; font-family: 'Kollektif-Bold'; -webkit-text-stroke: 0.1px white;" class="float-3"><span
+          style="position: relative;">Drop me a line!</span> <div style="display:inline-block;" class="new-arrow"><img style="margin-left: 2px; width: 80%;"
+              src="images/new arrow.svg"></div></a> -->
+                    <br />
+        <div>
+          <a href="mailto:kimberly.b.huynh@gmail.com" class="float-3"><img src="images/instagram.png"
+              style="display:inline-block; padding-right: 40px;"></a>
+          <a class="float-3" href="https://www.linkedin.com/in/kimberly-b-huynh/"><img src="images/tumblr.png"
+              style="display:inline-block"></a>
+          <span id="username">@_kimburs / @kimburs</span>
+        </div>
+
+  
+
+        <div data-aos="fade-down" data-aos-delay="100">
+        <div class="half-row-2">
+          <div class="column-33" data-aos="fade-down">
+            <img class="img-33" src="images/tgaa.PNG">
+          </div>
+        
+          <div class="column-33" data-aos="fade-down">
+            <img class="img-33" src="images/sere 2.jpg">
+          </div>
+          <div class="column-33" data-aos="fade-down">
+            <img class="img-33" src="images/dante 2.jpg">
+          </div>
+        </div>
+        
+        <div class="half-row-2" style="padding-top: 0;">
+          <div class="column-33">
+            <img class="img-33" src="images/sere.PNG">
+          </div>
+        
+          <div class="column-33">
+            <img class="img-33" src="images/dante.PNG">
+          </div>
+          <div class="column-33">
+            <img class="img-33" src="images/oceanna.JPG">
+          </div>
+        </div>
+        </div>
+    </div>
+  
+  </div>
+
+  </div>
+
+
+
+  
+
+      <div><button class="float-3 scroll-top"><img src="images/top.svg"></button></div>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    
+    AOS.init();
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 80, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 1250, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+    });
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () { AOS.refresh(); }, 500);
+    });
+
+
+
+
+    // // Get the button:
+    //   let mybutton = document.getElementByClassName("scroll-top");
+
+    //   // When the user scrolls down 20px from the top of the document, show the button
+    //   window.onscroll = function () { scrollFunction() };
+
+    //   function scrollFunction() {
+    //     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    //       mybutton.style.display = "block";
+    //     } else {
+    //       mybutton.style.display = "none";
+    //     }
+    //   }
+
+    //   // When the user clicks on the button, scroll to the top of the document
+    //   function topFunction() {
+    //     document.body.scrollTop = 0; // For Safari
+    //     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    //   }
+
+
+
+
+
+
+      // // We select the element we want to target
+      //   var target = document.querySelector(".scroll-top-container");
+
+      //   var scrollToTopBtn = document.querySelector(".scroll-top");
+      //   var rootElement = document.documentElement;
+
+      //   // Next we want to create a function that will be called when that element is intersected
+      //   function callback(entries, observer) {
+      //     // The callback will return an array of entries, even if you are only observing a single item
+      //     entries.forEach((entry) => {
+      //       if (entry.isIntersecting) {
+      //         // Show button
+      //         scrollToTopBtn.classList.add("showBtn");
+      //       } else {
+      //         // Hide button
+      //         scrollToTopBtn.classList.remove("showBtn");
+      //       }
+      //     });
+      //   }
+
+      //   function scrollToTop() {
+      //     rootElement.scrollTo({
+      //       top: 0,
+      //       behavior: "smooth"
+      //     });
+      //   }
+      //   scrollToTopBtn.addEventListener("click", scrollToTop);
+
+      //   // Next we instantiate the observer with the function we created above. This takes an optional configuration
+      //   // object that we will use in the other examples.
+      //   let observer = new IntersectionObserver(callback);
+      //   // Finally start observing the target element
+      //   observer.observe(target);
+
+
+      var scrollToTopBtn = document.querySelector(".scroll-top");
+        var rootElement = document.documentElement;
+
+        function handleScroll() {
+          // Do something on scroll
+          var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+          if (rootElement.scrollTop / scrollTotal > 0.15) {
+            // Show button
+            scrollToTopBtn.classList.add("showBtn");
+          } else {
+            // Hide button
+            scrollToTopBtn.classList.remove("showBtn");
+          }
+        }
+
+        function scrollToTop() {
+          // Scroll to top logic
+          rootElement.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+        }
+        scrollToTopBtn.addEventListener("click", scrollToTop);
+        document.addEventListener("scroll", handleScroll);
+
+
+
+
+  </script>
+</body>
+
+</html>
